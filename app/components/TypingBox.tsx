@@ -111,7 +111,7 @@ const TypingBox = () => {
         <span key={i} className={`${className} relative`}>
           {char}
           {isCursor && !finished && (
-            <span className="absolute left-0 top-0 w-[2px] h-full bg-white animate-blink" />
+            <span className="absolute left-0 top-0 w-[2px] h-full bg-white animate-blink blinking-cursor" />
           )}
         </span>
       );
@@ -151,8 +151,10 @@ const TypingBox = () => {
             <div className="flex flex-col items-end">
               <span>💥 CPM: {cpm}</span>
             </div>
-          )}{" "}
-          <span className="text-sm text-green-400">🏆 Personal Best: {highScore}</span>
+          )}
+          <span className="text-sm text-green-400">
+            🏆 Personal Best: {highScore}
+          </span>
         </div>
 
         <p className="break-words leading-relaxed">{renderText()}</p>
