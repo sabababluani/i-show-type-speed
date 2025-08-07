@@ -10,6 +10,8 @@
 - Track your **personal best**
 - Choose from multiple **time durations**: 15s, 30s, 45s, or 60s
 - Simple and intuitive UI for a distraction-free experience
+  
+<img width="1571" height="831" alt="Image" src="https://github.com/user-attachments/assets/47bc6614-1296-4c2f-8571-b90f31c0434b" />
 
 ## Getting Started
 
