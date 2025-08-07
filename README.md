@@ -25,5 +25,6 @@ npm run dev
 
 Then open your browser and go to http://localhost:3000.
 
+In future maybe I will add leaderboard which i think will be fun.
 
 This project is open source, so feel free to contribute if you have any ideas.
