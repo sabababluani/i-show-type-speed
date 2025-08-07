@@ -18,8 +18,7 @@
 To run the project locally, follow these steps:
 
 ```bash
-git clone https://github.com/your-username/i-show-type-speed.git
-cd i-show-type-speed
+git clone https://github.com/sabababluani/i-show-type-speed.git
 npm install
 npm run dev
 ```
