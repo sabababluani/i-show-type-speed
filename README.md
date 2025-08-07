@@ -1,4 +1,4 @@
-# i-show-type-speed
+# I Show Type Speed
 
 **i-show-type-speed** is a minimalistic speed typing application that allows you to test and improve your typing skills. It provides real-time feedback and displays your characters per minute (CPM) after each session.
 
