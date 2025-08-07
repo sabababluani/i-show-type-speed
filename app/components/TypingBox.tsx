@@ -21,18 +21,12 @@ const TypingBox = () => {
   const text = wordList.join(" ");
   const cpm = Math.floor(correctChars * (60 / duration));
 
-  // Load high score
   useEffect(() => {
+    setWordList(generateWords(INITIAL_WORD_COUNT));
     const storedHighScore = localStorage.getItem("typingGameHighScore");
     if (storedHighScore) setHighScore(parseInt(storedHighScore, 10));
   }, []);
 
-  // Generate initial words
-  useEffect(() => {
-    setWordList(generateWords(INITIAL_WORD_COUNT));
-  }, []);
-
-  // Countdown timer
   useEffect(() => {
     let timer: NodeJS.Timeout;
 
@@ -49,7 +43,6 @@ const TypingBox = () => {
     return () => clearInterval(timer);
   }, [started, timeLeft, finished]);
 
-  // Save high score
   useEffect(() => {
     if (finished && cpm > highScore) {
       localStorage.setItem("typingGameHighScore", cpm.toString());
@@ -57,7 +50,6 @@ const TypingBox = () => {
     }
   }, [finished, cpm, highScore]);
 
-  // Append more words as user nears the end
   useEffect(() => {
     if (!finished && text.length - typed.length < APPEND_THRESHOLD * 5) {
       setWordList((prev) => [...prev, ...generateWords(APPEND_THRESHOLD)]);
