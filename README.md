@@ -11,7 +11,7 @@
 - Choose from multiple **time durations**: 15s, 30s, 45s, or 60s
 - Simple and intuitive UI for a distraction-free experience
   
-<img width="1571" height="831" alt="Image" src="https://github.com/user-attachments/assets/47bc6614-1296-4c2f-8571-b90f31c0434b" />
+<img width="1242" height="688" alt="Image" src="https://github.com/user-attachments/assets/743ab80f-9eaa-4718-ac77-55eb7e8434f7" />
 
 ## Getting Started
 
