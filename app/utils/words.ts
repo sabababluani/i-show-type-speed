@@ -1,6 +1,7 @@
 export const WORDS = [
     "hello",
     "world",
+    "bye",
     "nextjs",
     "react",
     "tailwind",
@@ -57,4 +58,5 @@ export const WORDS = [
     'ruby',
     'php',
     'csharp',
+    'be'
 ];
